@@ -1,0 +1,115 @@
+{
+  "properties": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "available": {
+            "type": "boolean"
+          },
+          "segment": {
+            "type": "string"
+          },
+          "legal": {
+            "type": "array"
+          },
+          "isEnvironmentallyFriendly": {
+            "type": "boolean"
+          },
+          "hasTowBar": {
+            "type": "boolean"
+          },
+          "isAvailableAtShortNotice": {
+            "type": "boolean"
+          },
+          "detailUrl": {
+            "type": "string"
+          },
+          "car": {
+            "type": "object",
+            "properties": {
+              "make": {
+                "type": "string"
+              },
+              "model": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              },
+              "kw": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "ps": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "fueltype": {
+                "type": "string"
+              },
+              "gearingType": {
+                "type": "string"
+              }
+            }
+          },
+          "teaser": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "subtitle": {
+                "type": "string"
+              },
+              "ribbon": {
+                "type": "string"
+              },
+              "teaserImage": {
+                "type": "string"
+              },
+              "equipmentHighlights": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pricing": {
+            "type": "object",
+            "properties": {
+              "price": {
+                "type": "number",
+                "minimum": 0
+              },
+              "currencyIsoCode": {
+                "type": "string"
+              },
+              "currencySymbol": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "legal": {
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluno.Api", "Cluno.Api\Cluno.Api.csproj", "{C41D69EE-E169-41CB-896D-99B1EE615539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluno.Api.Tests", "Cluno.Api.Tests\Cluno.Api.Tests.csproj", "{AEE09B72-D6F2-4796-8172-8C3F6B565EE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C41D69EE-E169-41CB-896D-99B1EE615539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41D69EE-E169-41CB-896D-99B1EE615539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41D69EE-E169-41CB-896D-99B1EE615539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41D69EE-E169-41CB-896D-99B1EE615539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE09B72-D6F2-4796-8172-8C3F6B565EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE09B72-D6F2-4796-8172-8C3F6B565EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE09B72-D6F2-4796-8172-8C3F6B565EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE09B72-D6F2-4796-8172-8C3F6B565EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9662013C-A8BF-408A-8B57-B11515C61A7D}
+	EndGlobalSection
+EndGlobal
